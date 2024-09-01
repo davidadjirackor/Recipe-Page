@@ -1,0 +1,71 @@
+*,*:before, *:after{
+  box-sizing: border-size;
+}
+html{
+  box-sizing: inherit;
+  
+}
+
+body{
+  background: hsl(30, 54%, 90%);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 30px;
+  
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  background:white;
+  max-width:500px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius:10px;
+}
+
+.preparation-container{
+  background : hsl(330, 100%, 98%);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+h1{
+  margin-bottom: 0;
+}
+
+h3, h4{
+  color : hsl(332, 51%, 32%);
+}
+
+li span , li::marker , tr>td:nth-child(2) {
+  color : hsl(332, 51%, 32%);
+  font-weight: bold;
+}
+
+tr + tr > td {
+  border-top: 1px grey solid;
+}
+
+tr>td{
+  padding: 10px;
+}
+
+.instructions-container , .ingredients-container{
+  border-bottom: 1px solid grey;
+}
+
+#nutrition-content{
+  margin: 0;
+}
+
+table{
+  width:100%;
+  margin-top: 10px;
+}
